@@ -1,0 +1,6 @@
+services:
+  nodejs-app:
+    image: nodejs-cicd-demo
+    container_name: nodejs-demo-container
+    ports:
+      - "3000:3000"
